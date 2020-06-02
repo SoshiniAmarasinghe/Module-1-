@@ -144,3 +144,17 @@ Password:
 root@soshini-VirtualBox:/home/soshini# visudo
 root@soshini-VirtualBox:/home/soshini# su - ann
 ann@soshini-VirtualBox:~$ 
+
+
+File system
+
+Create Directory
+
+soshini@soshini-VirtualBox:~$ pwd
+/home/soshini
+soshini@soshini-VirtualBox:~$ mkdir mydir_123
+soshini@soshini-VirtualBox:~$ ls
+ Desktop     git_workspace   mydir123   Templates
+ Documents   Music           Pictures  'Untitled Document 1'
+ Downloads   mydir_123       Public     Videos
+
