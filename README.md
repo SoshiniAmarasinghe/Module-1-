@@ -42,12 +42,15 @@ soshini@soshini-VirtualBox:~$ su
 Password: 
 root@soshini-VirtualBox:/home/soshini#
 
+Creat a group and add a user.
+
 Group named 'IT team' was created. Previousy created user 'alex' was addedd to the IT team group. And then removed.  
 
 soshini@soshini-VirtualBox:/$ sudo groupadd itteam
 soshini@soshini-VirtualBox:/$ sudo usermod -a -G itteam alex
 soshini@soshini-VirtualBox:/$ sudo userdel alex
 
+Two users named Ann and Ben were created. Root priviledges given to Ben
 
 soshini@soshini-VirtualBox:~$ adduser ann
 adduser: Only root may add a user or group to the system.
@@ -95,10 +98,7 @@ Enter the new value, or press ENTER for the default
 	Other []: 
 Is the information correct? [Y/n] y
 root@soshini-VirtualBox:/home/soshini# sudo visudo
-
-
 Use "fg" to return to nano.
-
 [1]+  Stopped                 sudo visudo
 root@soshini-VirtualBox:/home/soshini# sudo visudo
 visudo: /etc/sudoers busy, try again later
